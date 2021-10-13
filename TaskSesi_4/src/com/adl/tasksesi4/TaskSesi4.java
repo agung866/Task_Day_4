@@ -21,7 +21,7 @@ public class TaskSesi4 {
 		int maxX=21;
 		int maxY=21;
 		
-		String finish= "f";
+		Boolean finish = true;
 		
 		
 		
@@ -33,7 +33,7 @@ public class TaskSesi4 {
 				     {
 				      System.out.print(karakter);
 				     } else if(x==20 && y==21) {
-						System.out.print(finish);
+						System.out.print("");
 					}else if(x==0 ||x==21||y==0||y==21){
 						System.out.print("*");
 					}else
